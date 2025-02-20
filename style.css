@@ -1,0 +1,74 @@
+body {
+  font-family: 'Space Mono', monospace;
+  padding: 20px;
+  text-align: center;
+  width: 600px;
+  height: 900px;
+}
+
+textarea {
+  font-family: 'Space Mono', monospace;
+  width: 90%;
+  height: 200px;
+  margin-bottom: 20px;
+  font-size: 14px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  resize: none;
+}
+
+button {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-family: 'Space Mono', monospace;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: darkgreen;
+}
+
+.show-button {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.show-button:hover {
+  background-color: darkgreen;
+}
+
+.hide-button {
+  background-color: red;
+  color: white;
+}
+
+.hide-button:hover {
+  background-color: darkred;
+}
+
+#extraWordsBox {
+  display: none;
+  margin-top: 10px;
+}
+
+#outputBox {
+  width: 90%;
+  margin: 0 auto;
+  padding: 10px;
+  border: 2px solid #4CAF50;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  text-align: left;
+  overflow-y: auto;
+  height: 250px;
+}
+
+#output {
+  white-space: pre-wrap;
+  font-size: 14px;
+}

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>RepeatCheck.io</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    #extraWordsBox {
+      display: none;
+      margin-top: 10px;
+    }
+
+    .show-button {
+      background-color: #4CAF50;
+      color: white;
+    }
+
+    .hide-button {
+      background-color: red;
+      color: white;
+    }
+  </style>
+</head>
+<body>
+  <h1>RepeatCheck.io</h1>
+  
+  <textarea id="inputText" placeholder="Enter text here..." rows="10" cols="50"></textarea>
+  
+  <br><br>
+  
+  <button id="toggleExtraWordsButton" class="show-button">Show Ignored Words</button>
+  
+  <div id="extraWordsBox">
+    <h3>Add or remove words as needed</h3>
+    <textarea id="extraWordsInput" rows="4" cols="20"></textarea>
+  </div>
+
+  <br><br>
+  <button id="checkButton">Check</button>
+
+  <h2>Repeated words:</h2>
+  <div id="outputBox">
+    <div id="output"></div>
+  </div>
+  
+  <script src="popup.js"></script>
+</body>
+</html>
