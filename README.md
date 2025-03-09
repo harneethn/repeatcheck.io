@@ -11,7 +11,7 @@ RepeatCheck.io is a Chrome extension designed to help users detect repeated word
 
 ## Installation
 
-You can install the RepeatCheck.io extension from the [Chrome Web Store](https://chromewebstore.google.com/detail/epnjigbanmhkcbplpifelgikbehmgdmn?utm_source=item-share-cb).
+You can install the extension from the [Chrome Web Store](https://chromewebstore.google.com/detail/epnjigbanmhkcbplpifelgikbehmgdmn?utm_source=item-share-cb).
 
 ## Usage
 
