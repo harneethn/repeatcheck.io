@@ -4,7 +4,7 @@ RepeatCheck.io is a Chrome extension designed to help users detect repeated word
 
 ## Features
 
-- Automatically detects duplicate content within text.
+- Automatically detects repeated words within text.
 - User-friendly interface to highlight and manage repeated content.
 - Customizable settings to adjust sensitivity for word detection.
 - Works seamlessly within the browser for quick access while writing or reviewing documents.
